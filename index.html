@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netlify Site With Links Example</title>
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/public/favicon.svg" />
+    <link rel="apple-touch-icon" href="/public/apple-touch-icon.png" />
+    <link rel="manifest" href="/public/manifest.json" />
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a
+        href="https://www.netlify.com"
+        class="header__logo icon"
+        aria-label="Deployed with Netlify"
+      >
+        <svg
+          role="img"
+          aria-hidden="true"
+          focusable="false"
+          class="icon netlify-logo"
+        >
+          <use xlink:href="/public/img/icons.svg#netlify-logo-full-small"></use>
+        </svg>
+      </a>
+      <span class="header__title"
+        ><a href="/">A site with links example</a></span
+      >
+    </header>
+    <main class="main">
+      <h1>A site with links</h1>
+      <p>
+        This site has a bunch of links on it! Some of them work, some of them do
+        not! Try creating a
+        <a href="https://sdk.netlify.com/publish/private-integrations/"
+          >private integration</a
+        >
+        on Netlify that can check which links work or not!
+      </p>
+
+      <h2>Build your private integration</h2>
+      <p>
+        Make a
+        <a href="https://sdk.netlify.com/publish/private-integrations/"
+          >private integration</a
+        >
+        that you can enable on all the sites in your Netlify team to check your
+        deploys for broken links. Hit the button below to deploy your
+        integration.
+      </p>
+      <p>
+        <a
+          href="https://app.netlify.com/integration/start/deploy?repository=https://github.com/netlify/sdk-build-event-handler-link-checker-template&integrationName=link-checker-integration&integrationSlug=link-checker-integration&integrationDescription=Check%20your%20sites%20links&scopes=site:read&integrationLevel=site"
+        >
+          <img
+            src="https://www.netlify.com/img/deploy/button.svg"
+            alt="Deploy to Netlify"
+        /></a>
+      </p>
+      <h2>Deploy this site to Netlify</h2>
+      <p>
+        If you want to use this site to check which links are broken and which
+        ones are not, feel free to deploy it on Netlify!
+      </p>
+      <p>
+        <a
+          href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/linkchecker-test-site"
+        >
+          <img
+            src="https://www.netlify.com/img/deploy/button.svg"
+            alt="Deploy to Netlify"
+        /></a>
+      </p>
+      <h2>Maybe you'd be interested in this as well...</h2>
+      <ul>
+        <li><a href="https://sdk.netlify.com/">The Netlify SDK</a></li>
+        <li>
+          <a href="https://sdk.netlify.com/build-event-handlers/overview/"
+            >Create Build Event Handlers</a
+          >
+        </li>
+        <li>
+          <a href="https://sdk.netlify.com/connectors/overview/"
+            >Create Connectors</a
+          >
+        </li>
+        <li>
+          <a href="https://sdk.netlify.com/integration-ui/overview/"
+            >Create your Integration UI</a
+          >
+        </li>
+        <li><a href="/error-oh-no.html">Build something funky</a></li>
+        <li>
+          <a href="/this-will-not-work.html"
+            >Will it work, that is the question...</a
+          >
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <div class="footer__body">
+        <p class="footer__copyright">
+          © 2023
+          <a href="https://netlify.com/" target="_blank" rel="noopener"
+            >Netlify</a
+          >
+        </p>
+        <p class="footer__source">
+          <a
+            href="https://github.com/netlify/linkchecker-test-site/"
+            target="_blank"
+            rel="noopener"
+            >View source code on GitHub</a
+          >
+        </p>
+      </div>
+      <div class="footer__body">
+        <p class="footer__link">
+          <a
+            href="https://www.netlify.com/trust-center/"
+            target="_blank"
+            rel="noopener"
+            >Trust Center</a
+          >
+        </p>
+        <p class="footer__link">
+          <a
+            href="https://www.netlify.com/privacy/"
+            target="_blank"
+            rel="noopener"
+            >Privacy</a
+          >
+        </p>
+        <p class="footer__link">
+          <a
+            href="https://www.netlify.com/security/"
+            target="_blank"
+            rel="noopener"
+            >Security</a
+          >
+        </p>
+        <p class="footer__link">
+          <a
+            href="https://www.netlify.com/gdpr-ccpa/"
+            target="_blank"
+            rel="noopener"
+            >GDPR/CCPA</a
+          >
+        </p>
+        <p class="footer__link">
+          <a
+            href="mailto:fraud@netlify.com?subject=Abuse%20report&amp;body=Please%20include%20the%20site%20URL%20and%20reason%20for%20your%20report%2C%20and%20we%20will%20reply%20promptly."
+            target="_blank"
+            rel="noopener"
+            >Abuse</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
